@@ -78,7 +78,7 @@ update action model =
         [ ("Tab 1", tab1Contents)
         , ("title", tab2Contents)
         ]
-      , address Tabs
+      , address = Tabs
       }
       tabs
 -}
@@ -94,7 +94,7 @@ view viewModel model =
         [ ("Tab 1", tab1Contents)
         , ("title", tab2Contents)
         ]
-      , address Tabs
+      , address = Tabs
       }
       tabs
 -}
